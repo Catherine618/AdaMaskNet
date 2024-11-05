@@ -42,8 +42,7 @@ To be updated once the code is organized and released.
 @article{AdaMaskNet,
   title={AdaMaskNet: Adaptive Multi-scale Masked Kernels for Enhanced Sensor-based Human Activity Recognition},
   journal={Journal Name},
-  year={2024},
-  url={https://github.com/Catherine618/AdaMaskNet}
+  year={2024}
 }
 
 **License**
