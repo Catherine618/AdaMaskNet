@@ -169,11 +169,9 @@ accelerometers. ACM SigKDD Explorations Newsletter, 12(2):74–82, 2011.
 
 @article{AdaMaskNet,
   title={AdaMaskNet: Adaptive Multi-scale Masked Kernels for Enhanced Sensor-based Human Activity Recognition},
-  journal={Journal Name},
   year={2024}
 }
 
-**License**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14056246.svg)](https://doi.org/10.5281/zenodo.14056246)
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
