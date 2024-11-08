@@ -44,7 +44,7 @@ def parse_args():
     parser.add_argument("--model_name", type=str, default="AdaMaskNet", help="Name of the model to test")
 
     parser.add_argument("--batch_size", type=int, default=32, help="Batch size for testing")
-    parser.add_argument("--checkpoint_path", type=str, default="checkpoint/checkpoint_epoch_200.pth", help="Path to the checkpoint to load for testing")
+    parser.add_argument("--checkpoint_path", type=str, default="checkpoint_dir/checkpoint_epoch_200.pth", help="Path to the checkpoint to load for testing")
 
     parser.add_argument("--output_dir", default='test_output', help='Directory to save test results')
 
