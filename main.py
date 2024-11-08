@@ -68,7 +68,7 @@ def parse_args():
         prog="HAR_Models_Basic_Model"
     )
 
-    parser.add_argument("--dataset", type=str, default="UCI_HAR")
+    parser.add_argument("--dataset", type=str, default="WISDM")
     parser.add_argument("--model_name", type=str, default="AdaMaskNet")
 
     # set Trainning parameters

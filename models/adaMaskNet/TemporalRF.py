@@ -11,7 +11,7 @@ class TemporalRF(nn.Module):
         self.output_channels = 0  # 初始化输出通道数为0
 
         for i in range(len(layer_parameter_list)):# 遍历每层参数
-            layer = build_block(layer_parameter_list[i], stride = self.stride,  sc = self.sc, layindex=i)  # 根据当前参数创建一个卷积层
+            layer = build_block(layer_parameter_list[i], stride = self.stride,  layindex=i)  # 根据当前参数创建一个卷积层
             self.layer_list.append(layer)
 
         last_layer_index = max([i for i, flag in enumerate(self.layerflag) if flag]) #找到最后一个标记为True的Layer

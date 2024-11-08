@@ -197,8 +197,12 @@ def evaluate_model(dataset,
     f1 = f1_score(all_labels, all_predictions, average='weighted')
     accuracy = accuracy_score(all_labels, all_predictions)
 
-    logger.info(
-        f'-----Test Precision:{precision:.4f}| Recall:{recall:.4f}| F1 Score:{f1:.4f}| Accuracy:{accuracy:.4f}-----')
+    message = f'-----Test Precision:{precision:.4f}| Recall:{recall:.4f}| F1 Score:{f1:.4f}| Accuracy:{accuracy:.4f}-----'
+
+    if logger.hasHandlers():
+        logger.info(message)
+    else:
+        print(message)
 
     writer.add_scalar('Test/Precision', precision, epoch)
     writer.add_scalar('Test/Recall', recall, epoch)
