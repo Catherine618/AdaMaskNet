@@ -30,8 +30,7 @@ We evaluate AdaMaskNet on four popular HAR datasets, achieving state-of-the-art 
 These results highlight the superiority of AdaMaskNet in recognizing human activities across varied time scales.
 
 **Installation**
-
-To be updated once the code is organized and released.
+* 
 
 **Model Architecture**
 
