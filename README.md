@@ -29,9 +29,15 @@ We evaluate AdaMaskNet on four popular HAR datasets, achieving state-of-the-art 
 
 These results highlight the superiority of AdaMaskNet in recognizing human activities across varied time scales.
 
-**Installation**
+**Requirements**
 
-To be updated once the code is organized and released.
+This project requires the following environment configuration:
+* Python >= 3.10
+* Pytorch >= 1.12
+  
+To install the dependencies listed in `requirements.txt`, run the following command:
+```bash
+pip install -r requirements.txt
 
 **Model Architecture**
 
